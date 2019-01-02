@@ -11,7 +11,7 @@ let swLocation = '/PracticaPWA2.1/sw.js';
 if( navigator.serviceWorker ){
     
     if(url.includes('localhost')){
-        navigator.serviceWorker.register('sw.js');
+        navigator.serviceWorker.register('./sw.js');
         
     }else{
     
