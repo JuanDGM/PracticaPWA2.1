@@ -10,7 +10,7 @@ self.addEventListener('install', e=>{
     const respuesta = caches.open(CACHE_STATIC).then(res=>{
         
         return res.addAll([
-            '/',
+            //'/',
             'index.php',
             'css/styles.css',
             'js/app.js',
