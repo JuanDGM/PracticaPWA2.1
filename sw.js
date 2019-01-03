@@ -11,7 +11,7 @@ self.addEventListener('install', e=>{
         
         return res.addAll([
             //'/',
-            '/index.html',
+            'index.html',
             'css/styles.css',
             'js/app.js',
             'sw.js'
