@@ -19,7 +19,7 @@ self.addEventListener('install', e=>{
         
     });
     
-    e.respondWith(respuesta);
+    e.waitUntil(respuesta);
     
 });
 
