@@ -19,7 +19,7 @@ self.addEventListener('install', e=>{
         
     });
     
-    e.waitUntil(respuesta);
+    e.waitUntil(Response.all(respuesta));
     
 });
 
